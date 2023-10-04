@@ -1,0 +1,47 @@
+.principal{
+    display: flex;
+}
+.divL1{
+    padding-left: 50px;
+}
+
+.divL2{
+    padding-left: 50px;
+}
+
+.letraL{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.mc-deficit
+{
+    background-image: url(../assets/img/holaNew.jpeg);
+    object-fit: cover;
+   margin: auto;
+}
+
+th{
+    background-color:chartreuse;
+}
+
+
+
+@media screen and (max-width:1000px){
+    .newBody{
+        padding: 1rem;
+        margin: 0.2rem;
+        box-sizing: border-box;
+        min-height: 500vh;
+
+        text-align: center;
+        background-size: 100% 100%;
+        backface-visibility: visible;
+
+    }
+    .principal{
+        flex-direction: column;
+    }
+    
+}
